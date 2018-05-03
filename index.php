@@ -12,6 +12,8 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/icones_signos.css" />
+		<link rel="stylesheet" href="assets/css/style.css" />
 	</head>
 
 	<body class="is-preload">

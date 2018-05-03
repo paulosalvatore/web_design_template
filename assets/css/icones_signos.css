@@ -1,0 +1,76 @@
+@font-face {
+	font-family:'iZodiacSigns';
+	src:url('../fonts/iZodiacSigns.eot?s4ijll');
+	src:url('../fonts/iZodiacSigns.eot?s4ijll#iefix')
+	format('embedded-opentype'),
+	url('../fonts/iZodiacSigns.ttf?s4ijll')
+	format('truetype'),
+	url('../fonts/iZodiacSigns.woff?s4ijll')
+	format('woff'),
+	url('../fonts/iZodiacSigns.svg?s4ijll#iZodiacSigns')
+	format('svg');
+	font-weight:normal;
+	font-style:normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	font-family:'iZodiacSigns' !important;
+	speak:none;
+	font-style:normal;
+	font-weight:normal;
+	font-variant:normal;
+	text-transform:none;
+	line-height:1;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	font-size: 130px;
+}
+
+.icon-virgo:before{
+	content:"\e900"
+}
+
+.icon-taurus:before{
+	content:"\e901"
+}
+
+.icon-scorpio:before{
+	content:"\e902"
+}
+
+.icon-sagittarius:before{
+	content:"\e903"
+}
+
+.icon-pisces:before{
+	content:"\e904"
+}
+
+.icon-libra:before{
+	content:"\e905"
+}
+
+.icon-leo:before{
+	content:"\e906"
+}
+
+.icon-gemini:before{
+	content:"\e907"
+}
+
+.icon-capricorn:before{
+	content:"\e908"
+}
+
+.icon-cancer:before{
+	content:"\e909"
+}
+
+.icon-aries:before{
+	content:"\e90a"
+}
+
+.icon-aquarius:before{
+	content:"\e90b"
+}
