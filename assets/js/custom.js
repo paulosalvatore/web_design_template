@@ -242,3 +242,79 @@ else {
 	console.log("Esse código nunca será lido.");
 }
 */
+
+/*
+function compararNumeros(a, b) {
+	if (a > b) {
+		console.log(a + " maior que " + b);
+	}
+	else if (b > a) {
+		console.log(b + " maior que " + a)
+	}
+	else {
+		console.log(a + " igual a " + b);
+	}
+}
+*/
+
+//var numeros = [1, 2, 3, 4, 5, 30];
+
+// console.log(numeros);
+// numeros.push(20);
+// console.log(numeros);
+
+// console.log(numeros.length);
+
+// var indice = numeros.indexOf(30);
+// console.log(indice);
+
+/*
+console.log(numeros);
+var ultimoNumero = numeros.pop();
+console.log(ultimoNumero);
+console.log(numeros);
+*/
+
+/*
+range(5) = [0, 1, 2, 3, 4]
+for i in range(5):
+	print(i)
+
+-> 0
+-> 1
+-> 2
+-> 3
+-> 4
+*/
+
+var numeros = [1, 2, 3, 4, 5, 30];
+for (var i = 0; i < numeros.length; i++) {
+	console.log(i, numeros[i]);
+}
+
+/*
+Exercício 1 - Array
+Crie um array com 6 números entre 1 e 10
+Varra o array usando o for e exiba apenas
+os números maiores que 5.
+
+Utilize o mesmo array, crie um novo for e
+exiba os números maiores que 7 e os menores de 2
+
+Múltiplo = resto 0, ou seja, 10 % 5 == 0
+Declare uma variável numérica com qualquer número entre 10 e 100
+Crie um for que cheque todos os números anteriores entre 2 e o número anterior
+ao número da variável.
+Para cada número dentro do for, cheque se o número digitado é múltiplo dele e exiba
+uma mensagem "{numero_digitado} é múltiplo de {i}" ou "... não é múltiplo ...".
+Exemplo:
+Se o número digitado foi 10:
+	 10 não é múltiplo de 9
+	 10 não é múltiplo de 8
+	 10 não é múltiplo de 7
+	 10 é múltiplo de 5
+	 10 não é múltiplo de 6
+	 10 não é múltiplo de 4
+	 10 não é múltiplo de 3
+	 10 é múltiplo de 2
+*/
