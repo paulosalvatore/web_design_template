@@ -76,13 +76,14 @@ Item 1
 	essas variáveis
 	Adição, Subtração, Divisão e Multiplicação
 Item 2
-	Crie uma função que receba um número qualquer e exiba o na tela
+	Crie uma função que receba um número qualquer e exiba-o na tela
 	da seguinte forma: "O número recebido é {numero}."
 Item 3
 	Crie uma função que receba um número qualquer e exiba a multiplicação
 	dele por 10, da seguinte forma: "{numero} * 10 = {total}"
  */
 
+/*
 var numero1 = 70;
 var numero2 = 30;
 
@@ -115,7 +116,7 @@ function exibirMultiplicacao2(numero, m) {
 exibirMultiplicacao2(5, 3);
 
 function checarNumero(x) {
-	if (x>= 10) {
+	if (x >= 10) {
 		console.log("Número maior ou igual a 10.")
 	}
 	else {
@@ -126,15 +127,118 @@ function checarNumero(x) {
 checarNumero(2);
 
 
-function checarNumero2(y,k) {
-	if (y>= k) {
-		console.log("Número maior ou igual a" +k );
+function checarNumero2(y, k) {
+	if (y >= k) {
+		console.log("Número maior ou igual a" + k);
 	}
 	else {
-		console.log("Número menor que " +k );
+		console.log("Número menor que " + k);
 	}
 }
 
-checarNumero2(2,4);
+checarNumero2(2, 4);
 
+*/
 
+/*
+// Item 1
+var numero1 = 2;
+var numero2 = 3;
+
+console.log(numero1 + numero2);
+console.log(numero1 - numero2);
+console.log(numero1 / numero2);
+console.log(numero1 * numero2);
+*/
+
+/*
+function exibirNumero(numero) {
+	console.log("O número recebido é " + numero + ".")
+}
+
+exibirNumero(5);
+exibirNumero(8);
+exibirNumero(125);
+*/
+
+/*
+function exibirMultiplicacao(numero) {
+	console.log(numero + " * 10 = " + (numero * 10));
+}
+
+exibirMultiplicacao(5);
+exibirMultiplicacao(8);
+exibirMultiplicacao(125);
+*/
+
+/*
+function exibirMultiplicacao(numero1, numero2) {
+	console.log(numero1 + " * " + numero2 + " = " + (numero1 * numero2));
+}
+
+exibirMultiplicacao(5, 12);
+exibirMultiplicacao(8, 13);
+exibirMultiplicacao(125, 14);
+*/
+
+/*
+function compararNumeros(numero) {
+	if (numero < 10) {
+		console.log("O número " + numero + " é menor que 10");
+	}
+	else {
+		console.log("O número " + numero + " é maior ou igual a 10");
+	}
+}
+
+compararNumeros(5);
+compararNumeros(10);
+compararNumeros(15);
+*/
+
+/*
+function compararNumeros(numero1, numero2) {
+	if (numero1 < numero2) {
+		console.log("O número " + numero1 + " é menor que " + numero2);
+	}
+	else {
+		console.log("O número " + numero1 + " é maior ou igual a " + numero2);
+	}
+}
+
+compararNumeros(5, 6);
+compararNumeros(10, 10);
+compararNumeros(15, 14);
+*/
+/*
+var numero1 = 10;
+var numero2 = 20;
+var numero3 = 30;
+
+if (numero1 < numero2 && numero2 > numero3) {
+	console.log(numero1 + " < " + numero2 + " && " + numero2 + " > " + numero3);
+}
+
+console.log(numero1 + " < " + numero2, numero1 < numero2);
+console.log(numero2 + " > " + numero3, numero2 > numero3);
+console.log(numero1 + " < " + numero2 + " || " + numero2 + " > " + numero3, numero1 < numero2 || numero2 > numero3);
+*/
+
+/*
+var verdadeiro = true;
+var falso = false;
+
+var numero1 = 58;
+var numero2 = 20;
+var numero3 = 73;
+
+if (numero1 < numero2 || numero2 > numero3) {
+	console.log("Esse código nunca será lido.");
+}
+else if (numero2 < numero3 && !numero3 < numero1) {
+	console.log("Esse código será lido.")
+}
+else {
+	console.log("Esse código nunca será lido.");
+}
+*/
