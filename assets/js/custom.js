@@ -249,7 +249,7 @@ function compararNumeros(a, b) {
 		console.log(a + " maior que " + b);
 	}
 	else if (b > a) {
-		console.log(b + " maior que " + a)
+		console.log(b + " maior que " + a);
 	}
 	else {
 		console.log(a + " igual a " + b);
@@ -287,10 +287,12 @@ for i in range(5):
 -> 4
 */
 
+/*
 var numeros = [1, 2, 3, 4, 5, 30];
 for (var i = 0; i < numeros.length; i++) {
 	console.log(i, numeros[i]);
 }
+*/
 
 /*
 Exercício 1 - Array
@@ -317,4 +319,22 @@ Se o número digitado foi 10:
 	 10 não é múltiplo de 4
 	 10 não é múltiplo de 3
 	 10 é múltiplo de 2
+*/
+
+/*
+// Correção Exercício 1
+
+//var numero_inserido = 5;
+function checarMultiplos(numero_inserido) {
+	for (var i = 2; i < numero_inserido; i++) {
+		var resto = numero_inserido % i;
+
+		if (resto == 0) {
+			console.log("O número " + numero_inserido + " é múltiplo de " + i);
+		}
+		else {
+			console.log("O número " + numero_inserido + " não é múltiplo de " + i);
+		}
+	}
+}
 */
