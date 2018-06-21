@@ -338,3 +338,57 @@ function checarMultiplos(numero_inserido) {
 	}
 }
 */
+
+/*
+// Exercício 2 - Arrays
+Crie uma lista com 10 números entre 1 e 20
+Varra todos os itens da lista e exiba no console apenas os números pares
+
+// Exercício 3 - Números primos
+Declare uma variável numérica com um número qualquer
+Faça um for que cheque se esse número é primo ou não e exiba isso no console.
+ */
+
+/*
+var pessoa = {
+	"nome": "Paulo",
+	"sobrenome": "Salvatore",
+	"idade": 24,
+	"nome_completo": function() {
+		return this.nome + " " + this.sobrenome;
+	}
+};
+
+var nomePessoa = pessoa["nome"];
+console.log(nomePessoa);
+console.log(pessoa.nome);
+*/
+
+// Objeto com os valores dos alimentos
+// Lista com quais alimentos quer comprar
+
+var dinheiro = 50;
+
+var alimentos = {
+	"uva": {
+		"preco": 12.5,
+		"estoque": 2
+	},
+	"chocolate": {
+		"preco": 14.7,
+		"estoque": 0
+	}
+};
+
+var comprarAlimentos = ["uva", "chocolate"];
+
+var valorTotal = 0;
+
+/*
+Objetivo do exercício:
+Calcular o valor total da compra
+Checar se o alimento está no estoque
+Atualizar o estoque conforme a compra
+Verificar se há dinheiro suficiente para a compra
+Caso não haja dinheiro suficiente para a compra toda, não compra NADA
+ */
