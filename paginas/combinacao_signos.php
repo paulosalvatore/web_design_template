@@ -10,13 +10,13 @@
 			<header>
 				<h2>Combinação de Signos</h2>
 			</header>
-			<p>
+			<div>
 				Combinação de Signos
 
-				<div class="teste">
-					Teste
+				<div id="teste">
+					<b>Conteúdo do bloco com ID Teste</b>
 				</div>
-			</p>
+			</div>
 		</div>
 	</div>
 </section>
