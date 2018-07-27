@@ -1,0 +1,74 @@
+#caixa_blocos_escolha {
+	float: left;
+}
+
+.bloco_escolha {
+	width: 150px;
+	height: 150px;
+	margin: 5px;
+}
+
+#verde {
+	background: green;
+}
+
+#vermelho {
+	background: red;
+}
+
+#amarelo {
+	background: yellow;
+}
+
+#bloco_principal {
+	width: 150px;
+	height: 460px;
+	margin-top: 5px;
+	margin-left: 80px;
+	background: black;
+	float: left;
+}
+
+.bloco_escolha,
+#bloco_principal {
+	border-radius: 50px;
+}
+
+/* Com tabela */
+/*
+#jogo {
+	width: 400px;
+	border-collapse: separate;
+	border-spacing: 10px;
+}
+
+#jogo tr {
+	background: white;
+	border: 0;
+}
+
+#jogo td {
+	border-radius: 50px;
+}
+
+#bloco_principal {
+	background: #000000;
+}
+
+.bloco_escolha {
+	height: 150px;
+	background: white;
+}
+
+#verde {
+	background-color: green;
+}
+
+#vermelho {
+	background-color: red;
+}
+
+#amarelo {
+	background-color: yellow;
+}
+ */
