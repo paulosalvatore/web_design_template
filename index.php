@@ -15,6 +15,7 @@
 		<link rel="stylesheet" href="assets/css/icones_signos.css" />
 		<link rel="stylesheet" href="assets/css/style.css" />
 		<link rel="stylesheet" href="assets/css/jogo.css" />
+		<link rel="stylesheet" href="assets/css/frases.css" />
 	</head>
 
 	<body class="is-preload">
@@ -55,8 +56,9 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+		<script src="assets/js/frases.js"></script>
 <!--		<script src="assets/js/exercicios_javascript.js"></script>-->
-		<script src="assets/js/custom.js"></script>
+<!--		<script src="assets/js/custom.js"></script>-->
 
 	</body>
 </html>
